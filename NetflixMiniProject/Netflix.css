@@ -1,19 +1,18 @@
-body{
-  width: 100vw;
-  justify-content: center;
-  font-family: 'Bebas Neue', cursive;
-  font-family: 'Poppins', sans-serif;
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
 }
 
 .noDisplay{
   display: none !important;
 }
 
-.big-div1 {
+.heading{
+  align-items: center;
   width: 100%;
   display: flex;
   justify-content: space-between;
-  align-items: center;
   max-width: 2050px;
   position:absolute;
   z-index: 2;
@@ -22,38 +21,26 @@ body{
   transform: translateX(-50%);
 }
 
-.netflixlogo {
+.nav-logo {
   max-width: 150px;
   width: 17vw;
   min-width: 90px;
-  /* width: 150px; */
 }
 
-.languagelogo {
-  position: absolute;
+.language {
   color: white;
+  position: absolute;
   left: 7px;
 }
- 
-.language {
+
+.language-select {
   background-color: rgba(0,0,0,0.4);
   color: white;
   padding: 8px 5px 8px 20px;
   border-radius: 2px;
 }
 
-.bigimg {
-  position: absolute;
-  width: 100vw;
-  height: 100%;
-  object-fit: cover;
-  z-index: -10;
-  overflow: hidden;
-  left: 0px;
-  top: 0px;
-}
-
-.signin {
+.signIn{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -66,28 +53,100 @@ body{
   text-decoration: none !important;
 }
 
-.text-div1 {
-  max-width: 950px;
-  width: 100%;
-  padding: 75px 0px;
-  margin:12vw 4vw 4vw 12vw;
+.bigimg-div1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  justify-content: center;
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Poppins', sans-serif;
 }
 
-.text-h1 {
+.bigimg-div2 {
+  position: relative;
+  width: 100vw;
+  height: 480px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient( rgba(0, 0, 0, 0.8) 0%, rgba(0,0,0,0.7) 30% , rgba(0,0,0,0.2) 60%,  rgba(0, 0, 0, 0.8));
+  border-bottom: 8px solid #222;
+  overflow: hidden;
+}
+
+.big-img{
+  position: absolute;
+  width: 100vw;
+  height: 100%;
+  object-fit: cover;
+  z-index: -10;
+  overflow: hidden; 
+}
+
+.text-div1 h1 {
   color: white;
-  font-size: 50px auto;
-  max-width: 650px;
+  font-size: 50px;
+  max-width: 640px;
   padding: 4px;
   margin: 0px auto;
   margin-bottom: 15px;
 }
 
-.text-h2 {
+.text-div1 h4 {
   font-size: 26px;
   margin-bottom: 20px;
 }
 
-.text-h3 {
+.text-div1 h6 {
   font-size: 19px;
   margin-bottom: 0;
+}
+
+.inputRow{
+  max-width: 800px !important;
+  margin: 0px auto !important;
+}
+
+.email-button{
+  background-color: red;
+  color: white;
+  font-size: 26px;
+  border: none;
+}
+
+.tvbox{
+  border-bottom: 8px solid #222;
+  background-color: black;
+  padding: 70px 45px;
+}
+
+.text-enjoy{
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.text-watch{
+  font-size: 26px;
+}
+
+.tvbox-content{
+  max-width: 1200px;
+  margin: auto;
+}
+.tvbox-frame{
+  width: 100%;
+  z-index: 3;
+}
+.box-video{
+  position: absolute;
+  width: 73%;
+  height: 100%;
+  left: 50%;
+  max-height: 56%;
+  max-width: 73%;
+  position: absolute;
+  top: 46%;
+  transform: translate(-51%,-46%);
+  width: 100%;
 }
