@@ -1,129 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <link rel="stylesheet" href="./Netflix.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Netflix-CD</title>
-</head>
-<body>
-  <div class="heading">
-    <img class="nav-logo" src="./navbarlogo.png" alt="big image" />
-    <div class="navLinks">
-      <div style="position: relative; display: flex; align-items: center">
-        <i class="language zmdi zmdi-globe-alt"></i>
-        <select class="language-select">
-          <option value="English">English</option>
-          <option value="Hindi">हिंदी</option>
-        </select>
-      </div>
-      <a class="signIn">Sign In</a>
-    </div>
-  </div>
-  <div class="bigimg-div1">
-    <div class="bigimg-div2">
-      <img class="big-img" src="./bigimg.jpg" alt="big image"/>
-      <div class="text-div1 text-white text-center">
-        <h1>Unlimited movies, TV shows and more.</h1>
-        <h4>Watch anywhere. Cancel anytime.</h4>
-        <h6>
-          Ready to watch? Enter your email to create or restart your
-          membership/
-        </h6>
-        <div class="row inputRow justify-content-center gy-3">
-          <input type="Email" placeholder="Email Address" class="col-md-8 col-12 p-2 px-5"/>
-          <button class="col-md-4 col-sm-3 col-4 p-md-3 p-1 email-button">
-            Get Started
-            <i class="zmdi zmdi-chevron-right"></i>
-          </button>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css"
+    />
+    <link rel="stylesheet" href="./Netflix.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./wibsitelogo.png"git  type="image/x-icon">
+    <title>Netflix - Chetan</title>
+  </head>
+  <body>
+    <div class="header">
+      <img class="navLogo" src="./navbarlogo.png" alt="Netflix Logo" />
+      <div class="navLinks">
+        <div style="position: relative; display: flex; align-items: center">
+          <i class="languageLogo zmdi zmdi-globe-alt"></i>
+          <select href="">
+            <option value="English">English</option>
+            <option value="Hindi">हिंदी</option>
+          </select>
         </div>
+        <a class="signIn" href="">Sign In</a>
       </div>
     </div>
-    <div class="tvbox w-100 text-white d-flex justify-content-center">
-      <div class="tvbox-content row d-flex justify-content-center">
-        <div
-          class="col-12 col-lg-6 p-lg-4 p-0 d-flex flex-column justify-content-center"
-        >
-          <h1 class="text1">Enjoy on your TV.</h1>
-          <h3 class="text2">
-            Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV,
-            Blu-ray players and more.
-          </h3>
-        </div>
-        <div
-          class="videoGIf col-10 col-md-6 d-flex flex-column justify-content-center position-relative align-items-center"
-        >
-          <img src="./tvbox.png" class="tvbox-frame" alt="" />
-          <video class="box-video" autoplay playsinline muted loop>
-            <source
-              src="./video1.m4v"
-              type="video/mp4"
-            />
-          </video>
-        </div>
-      </div>
-    </div>
-    <div class="tvbox w-100 text-white d-flex justify-content-center">
-      <div class="tvbox-content row d-flex justify-content-center">
-        <div
-          class="downloadImgDiv col-10 col-md-6 order-lg-1 order-2 d-flex flex-column justify-content-center position-relative align-items-center"
-        >
-          <img src="./moblie.jpg" class="tvbox-frame" alt="Image Stranger Things"/>
-          <div class="mobileimg">
-            <img src="./boxshot.png" alt=""/>
-            <div class="mobileimg-over">
-              <h6>Stranger Things</h6>
-              <p>Downloading...</p>
-            </div>
-            <i class="zmdi zmdi-download"></i>
+    <div class="body">
+      <div class="searchDiv">
+        <img class="bg-img" src="./bigimg.jpg" alt=""/>
+
+        <div class="searchDesc text-white text-center">
+          <h1>Unlimited movies, TV shows and more.</h1>
+          <h4>Watch anywhere. Cancel anytime.</h4>
+          <h6>
+            Ready to watch? Enter your email to create or restart your
+            membership.
+          </h6>
+          <div class="row inputRow justify-content-center gy-3">
+            <input type="Email" placeholder="Email Address" class="col-md-7 col-12 p-2 px-5"/>
+            <button class="col-md-3 col-sm-3 col-4 p-md-3 p-1 email-button">
+              Get Started
+              <i class="zmdi zmdi-chevron-right"></i>
+            </button>
           </div>
         </div>
-        <div
-          class="col-12 col-lg-6 p-lg-4 p-0 order-lg-2 order-1 d-flex flex-column justify-content-center">
-          <h1 class="text1">Download your shows to watch offline.</h1>
-          <h3 class="text2">Save your favourites easily and always have something to watch.</h3>
+      </div>
+      <div class="tv w-100 text-white d-flex justify-content-center">
+        <div class="tv-content row d-flex justify-content-center">
+          <div class="col-12 col-lg-6 p-lg-4 p-0 d-flex flex-column justify-content-center">
+            <h1 class="ft-heading">Enjoy on your TV.</h1>
+            <h3 class="ft-desc">
+              Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV,
+              Blu-ray players and more.
+            </h3>
+          </div>
+          <div
+            class="videoGIf col-10 col-md-6 d-flex flex-column justify-content-center position-relative align-items-center">
+            <img src="./tvbox.png" class="tv-frame" alt="" />
+            <video class="box-video" autoplay playsinline muted loop>
+              <source src="./video1.m4v" type="video/mp4"/>
+            </video>
+          </div>
         </div>
       </div>
-    </div>
-    
-    <div class="tvbox w-100 text-white d-flex justify-content-center">
-      <div class="tvbox-content row d-flex justify-content-center">
-        <div class="col-12 col-lg-6 p-lg-4 p-0 d-flex flex-colum justify-content-center">
-          <h1 class="text1">Watch everywhere.</h1>
-          <h3 class="text2"> Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV. </h3>
-        </div>
-        <div
-          class="videoGIf col-10 col-md-6 d-flex flex-column justify-content-center position-relative align-items-center">
-          <img src="./Mactv.png" class="tvboxframe" alt=""/>
-          <video class="box-video2" autoplay playsinline muted loop>
-            <source src="./video2.m4v" type="video/mp4"/>
-          </video>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="tvbox w-100 text-white d-flex justify-content-center">
-      <div class="tvbox-content row d-flex justify-content-center">
-        <div class="col-10 col-md- order-lg-1 order-2 d-flex flex-column justify-content-center position-relative align-items-center">
-          <img src="./Kidsimg.png" class="tvbox-frame" alt=""/>
-        </div>
-        <div
-          class="col-12 col-lg-6 p-lg-4 p-0 order-lg-2 order-1 d-flex flex-column justify-content-center"
-        >
-          <h1 class="text1">Create profiles for children.</h1>
-          <h3 class="text2>
-            Send children on adventures with their favourite characters in a
-            space made just for them—free with your membership.
-          </h3>
+      <div class="tv w-100 text-white d-flex justify-content-center">
+        <div class="tv-content row d-flex justify-content-center">
+          <div class="downloadImgDiv col-10 col-md-6 order-lg-1 order-2 d-flex flex-column justify-content-center position-relative align-items-center">
+            <img src="./moblie.jpg" class="tv-frame" alt=""/>
+            <div class="img-over">
+              <img src="./boxshot.png" alt=""/>
+              <div class="img-over-desc">
+                <h6>Stranger Things</h6>
+                <p>Downloading...</p>
+              </div>
+              <i class="zmdi zmdi-download"></i>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 p-lg-4 p-0 order-lg-2 order-1 d-flex flex-column justify-content-center">
+            <h1 class="ft-heading">Download your shows to watch offline.</h1>
+            <h3 class="ft-desc">
+              Save your favourites easily and always have something to watch.
+            </h3>
+          </div>
         </div>
       </div>
-    </div>
-
-    <div
-        class="faq-div w-100 d-flex flex-column justify-content-center align-items-center">
+      <div class="tv w-100 text-white d-flex justify-content-center">
+        <div class="tv-content row d-flex justify-content-center">
+          <div class="col-12 col-lg-6 p-lg-4 p-0 d-flex flex-column justify-content-center">
+            <h1 class="ft-heading">Watch everywhere.</h1>
+            <h3 class="ft-desc">
+              Stream unlimited movies and TV shows on your phone, tablet,
+              laptop, and TV.
+            </h3>
+          </div>
+          <div class="videoGIf col-10 col-md-6 d-flex flex-column justify-content-center position-relative align-items-center">
+            <img src="./Mactv.png" class="tv-frame" alt=""/>
+            <video class="box-video-img" autoplay playsinline muted loop>
+              <source src="./video2.m4v" type="video/mp4"/>
+            </video>
+          </div>
+        </div>
+      </div>
+      <div class="tv w-100 text-white d-flex justify-content-center">
+        <div class="tv-content row d-flex justify-content-center">
+          <div class="col-10 col-md-6 order-lg-1 order-2 d-flex flex-column justify-content-center position-relative align-items-center">
+            <img src="./Kidsimg.png" class="tv-frame" alt=""/>
+          </div>
+          <div class="col-12 col-lg-6 p-lg-4 p-0 order-lg-2 order-1 d-flex flex-column justify-content-center">
+            <h1 class="ft-heading">Create profiles for children.</h1>
+            <h3 class="ft-desc">
+              Send children on adventures with their favourite characters in a
+              space made just for them—free with your membership.
+            </h3>
+          </div>
+        </div>
+      </div>
+      <div class="faq-div w-100 d-flex flex-column justify-content-center align-items-center">
         <h1 class="question-heading text-white text-center">Frequently Asked Questions</h1>
         <div class="faqs text-white" action="">
           <div>
@@ -133,23 +138,20 @@
               <i class="zmdi zmdi-caret-up zmdi-hc-2x noDisplay"></i>
             </button>
             <div id="answer1" class="answer noDisplay">
-              <p>Netflix is a streaming service that offers a wide variety of
-                 award-winning TV shows, movies, anime, documentaries and more –
-                 on thousands of internet-connected devices. <br />
+              <p>
+                Netflix is a streaming service that offers a wide variety of
+                award-winning TV shows, movies, anime, documentaries and more –
+                on thousands of internet-connected devices. <br />
                 <br />
-                 You can watch as much as you want, whenever you want, without a
-                 single ad – all for one low monthly price. There's always
-                 something new to discover, and new TV shows and movies are added
-                 every week!
+                You can watch as much as you want, whenever you want, without a
+                single ad – all for one low monthly price. There's always
+                something new to discover, and new TV shows and movies are added
+                every week!
               </p>
             </div>
           </div>
           <div>
-            <button
-              id="question2"
-              onclick="displayAnswer('2')"
-              class="question text-white border-0"
-            >
+            <button id="question2" onclick="displayAnswer('2')" class="question text-white border-0">
               How much does Netflix cost?
               <i class="zmdi zmdi-caret-down zmdi-hc-2x"></i>
               <i class="zmdi zmdi-caret-up zmdi-hc-2x noDisplay"></i>
@@ -163,11 +165,7 @@
             </div>
           </div>
           <div>
-            <button
-              id="question3"
-              onclick="displayAnswer('3')"
-              class="question text-white border-0"
-            >
+            <button id="question3" onclick="displayAnswer('3')" class="question text-white border-0">
               Where can i watch?
               <i class="zmdi zmdi-caret-down zmdi-hc-2x"></i>
               <i class="zmdi zmdi-caret-up zmdi-hc-2x noDisplay"></i>
@@ -189,11 +187,7 @@
             </div>
           </div>
           <div>
-            <button
-              id="question4"
-              onclick="displayAnswer('4')"
-              class="question text-white border-0"
-            >
+            <button id="question4" onclick="displayAnswer('4')" class="question text-white border-0">
               How do I cancel?
               <i class="zmdi zmdi-caret-down zmdi-hc-2x"></i>
               <i class="zmdi zmdi-caret-up zmdi-hc-2x noDisplay"></i>
@@ -208,11 +202,7 @@
             </div>
           </div>
           <div>
-            <button
-              id="question5"
-              onclick="displayAnswer('5')"
-              class="question text-white border-0"
-            >
+            <button id="question5" onclick="displayAnswer('5')" class="question text-white border-0">
               What can I watch on Netflix?
 
               <i class="zmdi zmdi-caret-down zmdi-hc-2x"></i>
@@ -227,11 +217,7 @@
             </div>
           </div>
           <div>
-            <button
-              id="question6"
-              onclick="displayAnswer('6')"
-              class="question text-white border-0"
-            >
+            <button id="question6" onclick="displayAnswer('6')" class="question text-white border-0">
               Is Netflix good for kids?
 
               <i class="zmdi zmdi-caret-down zmdi-hc-2x"></i>
@@ -255,58 +241,52 @@
         <h3 class="text-white text-center sub-heading">Ready to watch? Enter your email to create or restart your membership.</h3>
 
         <div class="row px-4 w-100 inputRow justify-content-center gy-3">
-          <input
-            type="Email"
-            placeholder="Email Address"
-            class="col-md-8 col-12 p-2 px-5"
-          />
-          <button class="col-md-4 col-sm-3 col-4 p-md-3 p-1 email-button">
+          <input type="Email" placeholder="Email Address" class="col-md-7 col-12 p-2 px-5"/>
+          <button class="col-md-3 col-sm-3 col-4 p-md-3 p-1 email-button">
             Get Started
             <i class="zmdi zmdi-chevron-right"></i>
           </button>
         </div>
       </div>
-  </div>
-
-  <div class="footer">
-    <div class="footer-content">
-      <h6 class="mb-5">Questions? Call 000-800-919-1694</h6>
-      <div class="row w-100 row-cols-2 row-cols-sm-3 row-cols-md-4 gy-3 mb-5">
-        <a class="col f-link" href="">FAQ</a>
-        <a class="col f-link" href="">Help Centre</a>
-        <a class="col f-link" href="">Account</a>
-        <a class="col f-link" href="">Media Centre</a>
-        <a class="col f-link" href="">Inverstor Relations</a>
-        <a class="col f-link" href="">Jobs</a>
-        <a class="col f-link" href="">Ways to Watch</a>
-        <a class="col f-link" href="">Terms of Use</a>
-        <a class="col f-link" href="">Privacy</a>
-        <a class="col f-link" href="">Cookies Preferences</a>
-        <a class="col f-link" href="">Corporate Information</a>
-        <a class="col f-link" href="">Contact Us</a>
-        <a class="col f-link" href="">Speed Test</a>
-        <a class="col f-link" href="">Legal Notices</a>
-        <a class="col f-link" href="">Only on Netflix</a>
-      </div>
-
-        <div class="f-language" style="position: relative; display: flex; align-items: center">
-          <i class="languageLogo zmdi zmdi-globe-alt"></i>
-          <select href="">
-            <option value="English">English</option>
-            <option value="Hindi">हिंदी</option>
-          </select>
-        </div>
-        
-        <h6 class="mt-5">
-          Netflix India Made
-        </h6>
-        <hr>
-        <h4 href="">GitHub of Chetandasa
-        <a class="text-danger" href="https://github.com/Chetandasa">Visit at Github</a>
-      </h4>
     </div>
-  </div>
-  <script src="./Netflix.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
-</body>
+    <div class="footer">
+      <div class="footer-content">
+        <h6 class="mb-5">Questions? Call 2814-2814-01-02</h6>
+        <div class="row w-100 row-cols-2 row-cols-sm-3 row-cols-md-4 gy-3 mb-5">
+          <a class="col f-link" href="">FAQ</a>
+          <a class="col f-link" href="">Help Centre</a>
+          <a class="col f-link" href="">Account</a>
+          <a class="col f-link" href="">Media Centre</a>
+          <a class="col f-link" href="">Inverstor Relations</a>
+          <a class="col f-link" href="">Jobs</a>
+          <a class="col f-link" href="">Ways to Watch</a>
+          <a class="col f-link" href="">Terms of Use</a>
+          <a class="col f-link" href="">Privacy</a>
+          <a class="col f-link" href="">Cookies Preferences</a>
+          <a class="col f-link" href="">Corporate Information</a>
+          <a class="col f-link" href="">Contact Us</a>
+          <a class="col f-link" href="">Speed Test</a>
+          <a class="col f-link" href="">Legal Notices</a>
+          <a class="col f-link" href="">Only on Netflix</a>
+        </div>
+
+          <div class="f-language" style="position: relative; display: flex; align-items: center">
+            <i class="languageLogo zmdi zmdi-globe-alt"></i>
+            <select href="">
+              <option value="English">English</option>
+              <option value="Hindi">हिंदी</option>
+            </select>
+          </div>
+          <h6 class="mt-5">
+            Netflix
+          </h6>
+          <hr>
+          <h4 href="">Chetan Dasa
+          <a class="text-danger" href="https://github.com/Chetandasa"> Github</a>
+        </h4>
+      </div>
+    </div>
+    <script src="./Netflix.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body>
 </html>

@@ -1,18 +1,25 @@
 *{
-  box-sizing: border-box;
   margin:0;
   padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100vw;
+  justify-content: center;
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Poppins', sans-serif;
 }
 
 .noDisplay{
   display: none !important;
 }
 
-.heading{
-  align-items: center;
+.header{
   width: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   max-width: 2050px;
   position:absolute;
   z-index: 2;
@@ -21,30 +28,33 @@
   transform: translateX(-50%);
 }
 
-.nav-logo {
-  max-width: 150px;
+.navLogo{
+  max-width: 170px;
   width: 17vw;
   min-width: 90px;
 }
-
-.language {
-  color: white;
-  position: absolute;
-  left: 7px;
+.navLinks{
+  display: flex;
 }
 
-.language-select {
+.header select{
   background-color: rgba(0,0,0,0.4);
   color: white;
   padding: 8px 5px 8px 20px;
   border-radius: 2px;
 }
 
+.languageLogo{
+  position: absolute;
+  color: white;
+  left: 7px;
+}
+
 .signIn{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: red;
+  background-color: rgb(212, 6, 6);
   font-size: 16px;
   padding: 5px 18px;
   border-radius: 5px;
@@ -53,20 +63,9 @@
   text-decoration: none !important;
 }
 
-.bigimg-div1 {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 100vw;
-  justify-content: center;
-  font-family: 'Bebas Neue', cursive;
-  font-family: 'Poppins', sans-serif;
-}
-
-.bigimg-div2 {
+.searchDiv{
   position: relative;
   width: 100vw;
-  height: 650px;
   /* height: 480px; */
   display: flex;
   justify-content: center;
@@ -74,10 +73,8 @@
   background: linear-gradient( rgba(0, 0, 0, 0.8) 0%, rgba(0,0,0,0.7) 30% , rgba(0,0,0,0.2) 60%,  rgba(0, 0, 0, 0.8));
   border-bottom: 8px solid #222;
   overflow: hidden;
-  
 }
-
-.big-img{
+.bg-img{
   position: absolute;
   width: 100vw;
   height: 100%;
@@ -86,11 +83,14 @@
   overflow: hidden; 
 }
 
-.text-div1 {
-  margin-top: 7vw;
+.searchDesc{
+  max-width: 950px;
+  width: 100%;
+  padding: 75px 0px;
+  margin:12vw 4vw 6vw 4vw;
 }
 
-.text-div1 h1 {
+.searchDesc h1{
   color: white;
   font-size: 50px;
   max-width: 640px;
@@ -99,12 +99,11 @@
   margin-bottom: 15px;
 }
 
-.text-div1 h4 {
+.searchDesc h4{
   font-size: 26px;
   margin-bottom: 20px;
 }
-
-.text-div1 h6 {
+.searchDesc h6{
   font-size: 19px;
   margin-bottom: 0;
 }
@@ -115,32 +114,32 @@
 }
 
 .email-button{
-  background-color: red;
+  background-color: rgb(216, 5, 5);
   color: white;
   font-size: 26px;
   border: none;
 }
 
-.tvbox{
+.tv{
   border-bottom: 8px solid #222;
   background-color: black;
   padding: 70px 45px;
 }
 
-.text1{
+.ft-heading{
   font-size: 50px;
   margin-bottom: 30px;
 }
 
-.text2{
+.ft-desc{
   font-size: 26px;
 }
 
-.tvbox-content{
+.tv-content{
   max-width: 1200px;
   margin: auto;
 }
-.tvbox-frame{
+.tv-frame{
   width: 100%;
   z-index: 3;
 }
@@ -157,11 +156,12 @@
   width: 100%;
 }
 
+
 .downloadImgDiv{
   transform: translateX(-100px);
 }
 
-.mobileimg{
+.img-over{
   position: absolute;
   bottom: 8%;
   z-index: 3;
@@ -176,37 +176,30 @@
   justify-content: space-between;
 }
 
-.mobileimg-over{
+.img-over-desc{
   margin-left: 6%;
   width: 100%;
 }
 
-.mobileimg h6{
+.img-over-desc h6{
   font-size: 16px;
   margin-bottom: 0px;
 }
 
-.mobileimg p{
+.img-over-desc p{
   font-size: 14px;
   color:#0071eb;
   margin-bottom: 0px;
 }
 
-.mobileimg i{
+.img-over i{
   margin-right: 4%;
 }
 
-.mobileimg img{
+.img-over img{
   width: 20%;
 }
 
-.box-video2{
-  position: absolute;
-  top: 8%;
-  left: 20%;
-  width: 60%;
-  height: 55%;
-}
 
 .faq-div{
   background-color: black;
@@ -214,6 +207,13 @@
   padding-bottom: 80px;
 }
 
+.box-video-img{
+  position: absolute;
+  top: 8%;
+  left: 20%;
+  width: 60%;
+  height: 55%;
+}
 
 .question-heading{
   margin-top: 50px;
