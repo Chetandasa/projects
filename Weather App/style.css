@@ -80,7 +80,7 @@ h1.temp {
 
 .weather.loading:after {
   visibility: visible;
-  content: "Loading.....";
+  content: "Type City Name it will Load.....";
   color: white;
   position: absolute;
   top: 0;
