@@ -1,0 +1,21 @@
+steps:
+1. Create node project 
+    > npm init 
+2. Installed few node packages 
+    > npm install express --save 
+    > body-parser 
+    > nodemon 
+3. create a file app.js
+4. MVC - R Architecture 
+    > Model - Data 
+    > View - UI 
+    > Controller - API's 
+    > Router - Path 
+
+View -> Database 
+Database -> View 
+Example - shopping cart 
+    > Model - Data 
+    > Controller - Button API's 
+    > View - List of products in cart 
+    > Router - When user click on button "Add to cart" the path where the API's is stored
