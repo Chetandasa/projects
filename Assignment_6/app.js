@@ -1,6 +1,6 @@
 const exprees = require('express');
 const bodyparser = require('body-parser');
-
+const mongoose = require('mongoose');
 const router = require('./Routes/routes');
 
 const hostname = "localhost";
@@ -16,6 +16,12 @@ app.use((req,res,next) => {
   next(); 
 })
 app.use('/',router);
-app.listen(port,hostname, () => {
-  console.log('sercer is running on http://${hostname}:${port}');
+mongoose.connect('mongodb://127.0.0.1:27017/', {
+  useNewUrlParser : true , useUnifiedTopology : true
+}).then(client => {
+  app.listen(port,hostname, () => {
+    console.log('server is running on http://$(hostname):$(port)');
+  });
+}).catch(err => {
+  console.log(err);
 })
