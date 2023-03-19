@@ -4,12 +4,12 @@ const mongoose = require('mongoose');
 const router = require('./Routes/routes');
 
 const hostname = "localhost";
-const port = "8055";
+const port = "8050";
 
 const app = exprees();
 app.use(bodyparser.json());
 // CORS
-app.use((req,res,next) => {
+app.use((req, res, next) => {
   res.setHeader('Access-Control-Allow-Origin','*');
   res.setHeader('Access-Control-Allow-Methods','GET,POST,PUT,PATCH,DELETE');
   res.setHeader('Access-Control-Allow-Headers','Control-Type,Authorization');
