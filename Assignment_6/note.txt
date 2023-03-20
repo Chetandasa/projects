@@ -1,7 +1,0 @@
-1. open new terminak - npm init
-2. npm install express body-parser nodemon --save
-3. Create a file app.js
-4. Create 3 folders - Controllers , Model , Routes
-5. In packages.json => scripts => "start" : "nodemon app.js"
-
-6. To run the Node app => npm run start
