@@ -6,3 +6,4 @@
 5. In packages.json => scripts => "start" : "nodemon app.js"
 
 6. To run the Node app => npm run start
+

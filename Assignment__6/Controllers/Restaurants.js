@@ -18,7 +18,7 @@ exports.filterRestaurants = (req, res) => {
   }
   if(mealtype && cuisine) {
     Payload['type.mealtype'] = mealtype;
-    Payload['Cuisine.cuisine'] = { $in : cuisine};
+    Payload['Cuisine.cuisine'] = { $in : cuisine}
   }
   if(mealtype && lcost && hcost) { //split function to extract lcost and hcost delimitor - 500 - 1000
     Payload['type.mealtype'] = mealtype;
