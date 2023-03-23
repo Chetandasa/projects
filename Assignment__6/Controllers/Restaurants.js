@@ -1,4 +1,4 @@
-const { response } = require('express');
+// const { response } = require('express');
 const RestaurantSchema = require('../Models/Restaurants');
 
 exports.filterRestaurants = (req, res) => {
@@ -52,10 +52,10 @@ exports.filterRestaurants = (req, res) => {
   // find()
   RestaurantSchema.find(Payload).sort({cost : sort})
     .then(response => {
-      const filteredResponse = reaponse.slice(startIndex,endIndex);
+      const filteredResponse = response.slice(startIndex,endIndex);
       res.status(200).json({
-        message : "Restaurant fetched successfully",
-        restaurant : filteredResponse
+        message : "Restaurants fetched successfully",
+        restaurants : filteredResponse
       })
     }).catch(err => {
       res.status(400).json({error : err});

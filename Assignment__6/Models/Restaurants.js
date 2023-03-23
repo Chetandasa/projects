@@ -3,47 +3,47 @@ const Schema = mongoose.Schema;
 const RestaurantSchema = new Schema({
   _id : {
     type : String,
-    require : true
+    required : true
   },
   name : {
     type : String,
-    require : true
+    required : true
   },
   city_name : {
     type : String,
-    require : true
+    required : true
   },
   city : {
     type : Number,
-    require : true
+    required : true
   },
   locality : {
     type : String,
-    require : true
+    required : true
   },
   area : {
     type : Number,
-    require : true
+    required : true
   },
   address : {
     type : String,
-    require : true
+    required : true
   },
   thumb : {
     type : String,
-    require : true
+    required : true
   },
   cost : {
     type : Number,
-    require : true
+    required : true
   },
   contact_number : {
     type : String,
-    require : true
+    required : true
   },
   name : {
     type : String,
-    require : true
+    required : true
   },
   type :[{
     mealtype : Number,
@@ -55,4 +55,4 @@ const RestaurantSchema = new Schema({
   }]
 });
 
-module.exports = mongoose.model('Restaurant', RestaurantSchema, 'Restaurant');
+module.exports = mongoose.model('Restaurants', RestaurantSchema, 'Restaurants');

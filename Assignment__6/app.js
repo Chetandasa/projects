@@ -4,9 +4,9 @@ const mongoose = require('mongoose');
 const router = require('./Routes/routes');
 
 const hostname = "localhost";
-const port = "8050";
+const port = "8055";
 
-const app = exprees();
+const app = express();
 app.use(bodyParser.json());
 // CORS
 app.use((req, res, next) => {
@@ -17,10 +17,10 @@ app.use((req, res, next) => {
 })
 app.use('/',router);
 mongoose.connect('mongodb://127.0.0.1:27017/zomato', 
-  {useNewUrlParser : true ,useUnifiedTopology : true}
+  {useNewUrlParser : true ,useUnifiedTopology : true }
 ).then(client => {
   app.listen(port,hostname, () => {
-    console.log(`server is running on http://$(hostname):$(port)`);
+    console.log(`server is running on http://${hostname}:${port}`);
   });
 }).catch(err => {
   console.log(err);
