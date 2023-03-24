@@ -1,10 +1,13 @@
 import React, { Component } from 'react'
+import QuickSearches from './QuickSearches'
+import Wallpaper from './Wallpaper'
 
 class Home extends Component {
   render() {
     return (
       <div>
-        I am Home Component
+        <Wallpaper />
+        <QuickSearches />
       </div>
     )
   }

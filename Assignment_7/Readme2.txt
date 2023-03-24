@@ -4,7 +4,7 @@ steps: to create a project
   > install few npm packages - npm install react-router-dom react-tab --save 
   > install VS Code exrensions - simple code snippets , ES7 React/Redux... code snippets 
 
-2. Run the application - npm start 
+2. Run the application Go to your project link zomato-app and do = npm start 
 3. what is Layout ? 
 4. create Header.js file and explain (props.children)
 5. what is react component and how to decide when to create a component ? Divide the webpage into section 

@@ -1,0 +1,27 @@
+
+
+.react-tabs_tab {
+  border: none;
+}
+
+.react-tabs_tab--selected {
+  border-bottom: 2px solid red;
+  color: darkslateblue;
+  background-color: #fbfbfb;
+}
+.tabline {
+  border: solid 2px #d2d9e6;
+  width: 100%;
+}
+.gallery-button {
+  width: fit-content;
+  float: right;
+  opacity: 0.9;
+  background-color: black;
+  color: white;
+  border: none;
+}
+.btn {
+  width: fit-content;
+  float: right;
+}

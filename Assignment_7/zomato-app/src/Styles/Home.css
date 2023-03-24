@@ -1,0 +1,109 @@
+*{
+  box-sizing: border-box;
+  width: 100%;
+  font-family: Poppins;
+}
+body{
+  background-color: #fbfbfb;
+}
+.back-img{
+  justify-content: center;
+  background-image: linear-gradient(to top right,rgba(255, 255, 255, 0), #9b249156), url('https://cdn.demos.pixelgrade.com/wp-content/uploads/sites/104/2019/09/rosa-1-rosa-hero-background.jpg');
+  background-size: cover;
+  height: 480px;
+}
+.login-signup-row{
+  position: absolute;
+}
+
+.login,.createacc{
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+  opacity: 0.8;
+}
+.login:hover, .createacc:hover{
+  color: white;
+}
+.createacc{
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 10px 5px 10px 5px;
+}
+.logo{
+  display: inline;
+  background-color: white;
+  border-radius: 50%;
+  font-size: 50px;
+  font-weight: 600;
+  color: red;    
+  /* eda red nea istam toni vatena valadi pan red a unde pan vagla red unde*/
+}
+.restaurant-title {
+  font-size: 28px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.locationDropdown, .restaurantsinput {
+  font-size: 15px;
+  color: #636f88;
+}
+.restaurantSelector {
+  position: relative;
+}
+.search-icon {
+  width: 30px;
+  position: absolute;
+  bottom: 20px;
+  left: 5px;
+  color: #636f88;
+}
+.quick-searches{
+  text-align: left;
+  color: #192f60;
+  font-size: 30px;
+  font-weight: 900;
+}
+.qs-subtitle{
+  color: #8c96ab;
+}
+.card {
+  width: 360px;
+  height: 160px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+  border: none;
+  border-radius: 0;
+}
+.card-img {
+  height: 160px;
+  border: none;
+  border-radius: 0;
+}
+.card-title {
+  text-align: left;
+  color: #192f60;
+  font-size: 18px;
+  font-weight: 600;
+}
+.card-description {
+  text-align: left;
+  color: #8c96ab;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+@media only screen and (max-width:767px) {
+  .login-signup-row {
+    display: none;
+  }
+}
+
+@media only scree and (min-width: 768px) {
+  .logo{
+    font-size: 70px;
+  }
+  .restaurant-title {
+    font-size: 36px;
+  }
+}
