@@ -6,15 +6,15 @@ class Wallpaper extends Component {
     return (
       <div className='container-fluid back-img'>
         <div className='row pt-4 nx-auto text-center logo-row'>
-          <div className='col-12'>
-            <p className='px-4 py-3 px-md-4 py-md-2 logo'>c!</p>
+          <div className='col-12 pt-5'>
+            <p className='px-4 px-md-4 py-md-2 logo'>c!</p>
           </div>
         </div>
         <div className='row pt-4 mx-auto text-center restaurant-title-row'>
           <div className='col-12'>
-            <p className='restaurant-title'>
-              Find best restaurants, cafes and bars
-            </p>
+            <h1 className='restaurant-title'>
+              Find the best restaurants, cafes and bars
+            </h1>
           </div>
         </div>
         <div className='row pt-4 mx-auto text-center search-bar-row'>
@@ -23,10 +23,10 @@ class Wallpaper extends Component {
             <div className='locationSelector'>
               <select className='locationDropdown px-2 py-3'>
                 <option value={0} selected disabled>Please type a location</option>
-                <option value={1}>Sarjapure,Bangalore</option>
-                <option value={1}>HSR Layout,Bangalore</option>
-                <option value={1}>Kornangala,Bangalore</option>
-                <option value={1}>Bannorghata road,Bangalore</option>
+                <option value={1}>Sarjapure, Bangalore</option>
+                <option value={1}>HSR Layout, Bangalore</option>
+                <option value={1}>Kornangala, Bangalore</option>
+                <option value={1}>Bannorghata road, Bangalore</option>
               </select>
             </div>
           </div>

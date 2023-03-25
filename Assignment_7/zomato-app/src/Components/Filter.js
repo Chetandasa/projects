@@ -10,8 +10,10 @@ class Filter extends Component {
             <span className='filter-logo-div mx-5'>c!</span>
           </div>
         </div>
+        <h1 class='container my-5 mx-auto'>Breakfast Place in Mumbai</h1>
         <div className='row container my-4 mx-auto'>
           <div className='accordion col-12 col-sm-12 col-md-3 col-lg-3 px-3 mb-3 filter-section' id='accordionExample'>
+            <br></br>
             <div class='accordion-item'>
               <h2 class='accordion-header' id='headingOne'>
                 <button 
@@ -178,7 +180,7 @@ class Filter extends Component {
               <div className='col-12 col-sm-12 col-md-6 col-lg-3'>
                 <img
                   className='thumb'
-                  src=''
+                  src='https://images.pexels.com/photos/1305063/pexels-photo-1305063.jpeg?auto=compress&cs=tinysrgb&w=600'
                   alt='Restaurant Thumb'
                   />
               </div>
@@ -212,7 +214,7 @@ class Filter extends Component {
               <div className='col-12 col-sm-12 col-md-6 col-lg-3'>
                 <img
                   className='thumb'
-                  src=''
+                  src='https://images.pexels.com/photos/1305063/pexels-photo-1305063.jpeg?auto=compress&cs=tinysrgb&w=600'
                   alt='Restaurant Thumb'
                   />
               </div>

@@ -17,7 +17,7 @@ body{
 }
 
 .login,.createacc{
-  font-weight: 600;
+  font-weight: 300;
   text-decoration: none;
   color: white;
   opacity: 0.8;
@@ -34,13 +34,13 @@ body{
   display: inline;
   background-color: white;
   border-radius: 50%;
-  font-size: 50px;
+  font-size: 70px;
   font-weight: 600;
   color: red;    
   /* eda red nea istam toni vatena valadi pan red a unde pan vagla red unde*/
 }
 .restaurant-title {
-  font-size: 28px;
+  font-size: 32px;
   font-weight: 600;
   color: #ffffff;
 }

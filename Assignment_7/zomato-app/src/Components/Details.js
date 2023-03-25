@@ -1,33 +1,35 @@
 import React, { Component } from 'react';
-import { Tabs, TabPanel, Tab, TabList} from 'react-tabs';
+import { Tabs, TabList, Tab, TabPanel } from 'react-tabs';
 import '../Styles/Details.css';
 
 class Details extends Component {
   render() {
     return (
-      <div className='mb-5'>
+      <div className='md-5'>
         <div className='filter-header'>
           <div className='filter-logo-div mx-5'>
             <span className='filter-logo'>c!</span>
           </div>
         </div>
-        <div className='px-5'>
-          <img 
-            src=''
-            height='352px'
+        <div className='pt-5 px-5'>
+          <img
+            src='https://images.pexels.com/photos/1305063/pexels-photo-1305063.jpeg?auto=compress&cs=tinysrgb&w=600'
+            height='550px'
             />
-          <button class='gallery-button py-2'>Click to see Image Gallery</button>  
+          <button class='btn btn-dark p-2'>Click to see Image Gallery</button>
         </div>
         <div className='px-5 pt-5'>
           <div class='h1 mt-3'>
             The Big Chill Cakery
-            <button className='btn btn-danger btn'>Place Oline Order</button>
+            <br />
+            <button className='btn btn-danger btn'>Place Online Order</button>
           </div>
+          <div className='p-4'></div>
           <div class='tabs'>
             <Tabs>
               <TabList className='TabList'>
-                <Tab>Overview</Tab>
-                <Tab>content</Tab>
+                <Tab className='p-2 pe-4'>Overview</Tab>
+                <Tab className='p-2'>Content</Tab>
               </TabList>
               <hr className='tabline' />
               <TabPanel className='Details'>
@@ -46,6 +48,14 @@ class Details extends Component {
             </Tabs>
           </div>
         </div>
+
+        <div className='container chetan-details'>
+          <hr className='tabline' />
+          <h2>Website Created By <a href='#'>Chetan Dasa</a></h2>
+          <br></br>
+          <br></br>
+        </div>
+
       </div>
     )
   }
