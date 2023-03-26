@@ -12,10 +12,18 @@ import '../Styles/Home.css';
                 login
               </a>
             </div> 
-            <div className='col-8 col-sm-8 col-md-3 text-start'>
-              <a className='createacc' href='#'>
+            <div className='create-account-button col-8 col-sm-8 col-md-3 text-start'>
+
+              {/* <button 
+                id="register" 
+                class="createacc bg-transparent col-2 p-3 text-decoration-none text-white border border-white border-2 rounded navlink d-flex justify-content-center" 
+                href="https://google.com">
+                  Create an account
+              </button> */}
+
+              <button className='createacc bg-transparent' href='#'>
                 Create an account
-              </a>
+              </button>
             </div>
           </div>        
         </div>

@@ -16,16 +16,23 @@ body{
   position: absolute;
 }
 
+
+
 .login,.createacc{
-  font-weight: 300;
+  font-weight: 600;
   text-decoration: none;
-  color: white;
-  opacity: 0.8;
+  /* color: white; */
+  opacity: 1;
+  color: red;
 }
 .login:hover, .createacc:hover{
   color: white;
 }
+
+
+
 .createacc{
+  width: 200px;
   border: 2px solid white;
   border-radius: 5px;
   padding: 10px 5px 10px 5px;
