@@ -21,9 +21,9 @@ import '../Styles/Home.css';
                   Create an account
               </button> */}
 
-              <button className='createacc bg-transparent' href='#'>
+              <a className='createacc bg-transparent' href='#'>
                 Create an account
-              </button>
+              </a>
             </div>
           </div>        
         </div>

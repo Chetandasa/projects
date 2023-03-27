@@ -16,20 +16,16 @@ body{
   position: absolute;
 }
 
-
-
 .login,.createacc{
   font-weight: 600;
   text-decoration: none;
   /* color: white; */
   opacity: 1;
-  color: red;
+  color: #a6ff00;
 }
 .login:hover, .createacc:hover{
   color: white;
 }
-
-
 
 .createacc{
   width: 200px;
@@ -44,7 +40,6 @@ body{
   font-size: 70px;
   font-weight: 600;
   color: red;    
-  /* eda red nea istam toni vatena valadi pan red a unde pan vagla red unde*/
 }
 .restaurant-title {
   font-size: 32px;

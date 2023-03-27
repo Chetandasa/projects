@@ -24,9 +24,9 @@ class Wallpaper extends Component {
               <select className='locationDropdown px-2 py-3'>
                 <option value={0} selected disabled>Please type a location</option>
                 <option value={1}>Sarjapure, Bangalore</option>
-                <option value={1}>HSR Layout, Bangalore</option>
-                <option value={1}>Kornangala, Bangalore</option>
-                <option value={1}>Bannorghata road, Bangalore</option>
+                <option value={2}>HSR Layout, Bangalore</option>
+                <option value={3}>Kornangala, Bangalore</option>
+                <option value={4}>Bannorghata road, Bangalore</option>
               </select>
             </div>
           </div>
