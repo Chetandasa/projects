@@ -49,12 +49,12 @@ class Details extends Component {
           </div>
         </div>
 
-        <div className='container chetan-details'>
+        {/* <div className='container chetan-details'>
           <hr className='tabline' />
           <h2>Website Created By <a href='#'>Chetan Dasa</a></h2>
           <br></br>
           <br></br>
-        </div>
+        </div> */}
 
       </div>
     )
