@@ -4,9 +4,9 @@ const mongoose = require('mongoose');
 const router = require('./Routes/routes');
 
 const hostname = "localhost";
-const port = "8055";
+const port = "8050";
 
-const app = express();
+const app = exprees();
 app.use(bodyParser.json());
 // CORS
 app.use((req, res, next) => {
@@ -24,4 +24,4 @@ mongoose.connect('mongodb://127.0.0.1:27017/zomato',
   });
 }).catch(err => {
   console.log(err);
-})
+});

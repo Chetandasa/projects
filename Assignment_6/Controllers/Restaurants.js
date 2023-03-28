@@ -1,4 +1,3 @@
-// const { response } = require('express');
 const RestaurantSchema = require('../Models/Restaurants');
 
 exports.filterRestaurants = (req, res) => {
@@ -60,4 +59,4 @@ exports.filterRestaurants = (req, res) => {
     }).catch(err => {
       res.status(400).json({error : err});
     })
-}
+};
