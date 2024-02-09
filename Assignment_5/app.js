@@ -17,5 +17,5 @@ app.use((req,res,next) => {
 })
 app.use('/',router);
 app.listen(port,hostname, () => {
-  console.log('sercer is running on http://${hostname}:${port}');
+  console.log('server is running on http://${hostname}:${port}');
 })

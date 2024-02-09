@@ -57,11 +57,11 @@
                   {
                   "cuisine":1,
                   "name":"North Indain"
-          },
-              {
-          "cuisine":3,
-          "name":"Chinese"
-      }
+                  },
+                  {
+                   "cuisine":3,
+                   "name":"Chinese"
+                  }
 
       ]
   },
